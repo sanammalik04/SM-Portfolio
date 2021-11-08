@@ -12,7 +12,7 @@
                 <nav>
                     <ul class="min-list social-icons-list group">
                         <li>
-                            <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="git-hub"><i class="fa fa-git" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
