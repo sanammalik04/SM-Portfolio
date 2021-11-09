@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">View My Projects</a></p>
+            <p class="t-center no-margin"><a href='<?php echo site_url('/projects') ?>' class="btn btn--blue">View My Projects</a></p>
         </div>
     </div>
     <div class="full-width-split__two">
@@ -56,7 +56,7 @@
             </div>
         </div>
 
-        <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View My Publications</a></p>
+        <p class="t-center no-margin"><a href='<?php echo site_url('/publications') ?>' class="btn btn--yellow">View My Publications</a></p>
     </div>
 </div>
 </div>
@@ -64,38 +64,49 @@
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bus.jpg') ?>)">
+            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg') ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">About Me</h2>
-                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                        <h2 class="headline headline--medium t-center">Services Offered</h2>
+                        <strong><i><p class="t-center no-margin">Wordpress Custom Themes and Plugins, Content Management</p></i></strong> 
+                        <strong><i><p class="t-center no-margin">Manage and Update Current Website, Wordpress Webiste Creation</p></i></strong> 
+                        <strong><i><p class="t-center no-margin"> Google Analytic tracking, Create Infographics, Editing, Proofreading</p></i></strong>  
+                        <strong><i><p class="t-center no-margin">Writing, Research, Technical Research, Image Optimization, API Projects</p></i></strong> 
+                        <!-- <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p> -->
                     </div>
                 </div>
             </div>
             <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/apples.jpg') ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Projects</h2>
-                        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                        <h2 class="headline headline--medium t-center">Testimonials</h2>
+                        <i><p class="t-center no-margin">Working with Sanam has been a wonderful experience. As a very new and</p></i>   
+                        <i><p class="t-center no-margin">small public service organization we wanted someone who</p></i>
+                        <i><p class="t-center no-margin">really understood our work and knew how to amplify it online. </p></i>
+                        <i><p class="t-center no-margin">With Sanam's year's of experience in the public sector,</p></i
+                        <i><p class="t-center no-margin">she provided us with guidance that we really needed. With her guidance and </p></i>
+                        <i><p class="t-center no-margin">expertise we were able to increase our donations by 100%!</p></i>
+                        <i><p class="t-center no margin">We have hired Sanam to create a new Wordpress website for us.</p></i>
+                        <i><p class="t-right no margin">--Project Downtown of Charlotte</p></i>
                     </div>
                 </div>
             </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
+            <!-- <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Publications</h2>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
-            </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
+            </div> -->
+            <!-- <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Contact Me</h2>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
     </div>
