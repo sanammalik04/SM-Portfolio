@@ -8,24 +8,22 @@
             </div>
 
             <div class="site-footer__col-four">
-                <h3 class="headline headline--small">Connect With Me</h3>
+                <h3 class="headline headline--small">Contact Me</h3>
                 <nav>
                     <ul class="min-list social-icons-list group">
                         <li>
-                            <a href="#" class="git-hub"><i class="fa fa-git" aria-hidden="true"></i></a>
+                            <a href="sanam.malik04@gmail.com" class="social-color-gmail"><i class="fa fa-google" aria-hidden="true"></i></a>
                         </li>
+                        
                         <li>
-                            <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/sanam-malik/" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
+                        
                         <li>
-                            <a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="https://github.com/sanammalik04" class="social-color-github"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
+            
+
                     </ul>
                 </nav>
             </div>

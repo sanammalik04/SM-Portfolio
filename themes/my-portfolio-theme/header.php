@@ -18,7 +18,6 @@
             <ul>
               <li><a href='<?php echo site_url('/projects') ?>'>Projects</a></li>
               <li><a href='<?php echo site_url('/publications') ?>'>Publications</a></li>
-              <li><a href=<?php echo site_url('/contact-me')?>'>Contact Me</a></li>
             </ul>
           </nav>
         </div>

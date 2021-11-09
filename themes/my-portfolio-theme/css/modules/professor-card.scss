@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 
-  .search-overlay & {
-    padding-top: 21px;
-  }
 }
 
 .professor-card {
@@ -14,10 +11,6 @@
   margin-right: 15px;
   background-color: $darkOrange;
   overflow: hidden;
-
-  .search-overlay & {
-    width: 180px;
-  }
 
   &__image {
     display: block;

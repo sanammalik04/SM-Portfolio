@@ -97,22 +97,6 @@
   color: #999999;
 }
 
-.search-trigger {
-  display: none;
-  color: #fff;
-  position: relative;
-  cursor: pointer;
-  top: 1px;
-  margin-left: 20px;
-  @include atMedium {
-    display: inline-block;
-    top: 6px;
-  }
-}
-
-.search-trigger:hover {
-  opacity: 0.65;
-}
 
 .social-icons-list {
   display: flex;
@@ -135,7 +119,7 @@
   opacity: 0.75;
 }
 
-.social-color-facebook {
+.social-color-github {
   background-color: #4862a3;
 }
 .social-color-twitter {
@@ -223,43 +207,6 @@
   }
 }
 
-/* Seach Form */
-.search-form {
-  background-color: #dedede;
-  padding: 20px;
-  text-align: center;
-}
-
-.search-form label {
-  display: block;
-}
-
-.search-form-row {
-  display: flex;
-}
-
-.search-form .s {
-  min-width: 20px;
-  flex-basis: auto;
-  flex-grow: 1;
-  border: none;
-  font-family: "Roboto", sans-serif;
-  padding: 10px;
-  @include atSmall {
-    font-size: 1.4rem;
-  }
-}
-
-.search-submit {
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  background-color: $mainBlue;
-  font-family: "Roboto", sans-serif;
-  padding: 0 20px;
-  margin-left: 10px;
-}
 
 .note-limit-message {
   visibility: hidden;

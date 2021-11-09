@@ -50,23 +50,7 @@
     }
   }
 
-  &__search-trigger {
-    cursor: pointer;
-    color: #fff;
-    font-size: 1.2rem;
-    position: absolute;
-    top: 6px;
-    right: 16px;
 
-    @include atSmall {
-      top: 4px;
-      font-size: 1.4rem;
-    }
-
-    @include atMedium {
-      display: none;
-    }
-  }
 
   &__menu-trigger {
     color: #fff;
