@@ -1,6 +1,13 @@
+html {
+  background: url('/images/joe-woods-4Zaq5xY5M_c-unsplash.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
   color: #333;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   overflow-x: hidden;
   position: relative;
 }
@@ -29,9 +36,10 @@ li {
   padding: 0 16px;
   position: relative;
 }
-.container--narrow {
+/* .container--narrow {
   max-width: 960px;
-}
+  
+} */
 .section-break {
   border: none;
   border-top: 1px solid #ddd;
@@ -136,7 +144,8 @@ li {
 .page-section p:last-of-type {
   margin-bottom: 0;
 }
-.school-logo-text {
+.school-logo-text a:hover {
+  color: darkcyan;
   position: relative;
   z-index: 20;
   margin: 0;
@@ -147,15 +156,14 @@ li {
   font-weight: 400;
 }
 .school-logo-text a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 .school-logo-text--alt-color a {
   color: #666;
 }
 .school-logo-text--alt-color a:hover {
-  color: #0d3b66;
-  text-decoration: underline;
+  color: darkcyan;
 }
 @-webkit-keyframes spin {
   0% {
@@ -351,7 +359,8 @@ li {
 body.login .button-primary {
   background-color: #f95738;
   border-color: #f83e1a;
-  text-shadow: 0 -1px 1px #f8320c, 1px 0 1px #f8320c, 0 1px 1px #f8320c, -1px 0 1px #f8320c;
+  text-shadow: 0 -1px 1px #f8320c, 1px 0 1px #f8320c, 0 1px 1px #f8320c,
+    -1px 0 1px #f8320c;
   box-shadow: 0 1px 0 #ed2c07;
 }
 body.login .button-primary:active,
@@ -359,7 +368,8 @@ body.login .button-primary:focus,
 body.login .button-primary:hover {
   background-color: #f8411d;
   border-color: #f95738;
-  text-shadow: 0 -1px 1px #ed2c07, 1px 0 1px #ed2c07, 0 1px 1px #ed2c07, -1px 0 1px #ed2c07;
+  text-shadow: 0 -1px 1px #ed2c07, 1px 0 1px #ed2c07, 0 1px 1px #ed2c07,
+    -1px 0 1px #ed2c07;
   box-shadow: 0 1px 0 #de2907;
 }
 body.login {
@@ -495,7 +505,7 @@ body.login {
 .note-title-field {
   width: 40%;
   font-size: 1.85rem;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   font-weight: 300;
   color: #0d3b66;
   border: 1px solid transparent;
@@ -517,7 +527,7 @@ body.login {
 }
 .note-body-field {
   color: #333;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   resize: none;
   display: block;
   width: 100%;
@@ -557,7 +567,7 @@ body.login {
 .new-note-title {
   width: 100%;
   padding: 10px;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   border: none;
   margin-bottom: 10px;
   font-size: 1.15rem;
@@ -568,7 +578,7 @@ body.login {
   box-sizing: border-box;
   resize: none;
   padding: 10px;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   border: none;
   margin-bottom: 10px;
   height: 170px;
@@ -626,7 +636,8 @@ body.login {
   padding-top: 58px;
   opacity: 0;
   transform: translateY(-20%);
-  transition: opacity 0.3s ease-out, visibility 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, visibility 0.3s ease-out,
+    transform 0.3s ease-out;
   padding-bottom: 20px;
 }
 .site-header__menu--active {
@@ -806,7 +817,7 @@ body.login {
 .main-navigation a {
   display: block;
   padding: 10px 20px;
-  color:black;
+  color: black;
   text-decoration: none;
   font-weight: 300;
 }
@@ -818,7 +829,7 @@ body.login {
 }
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: #faf0ca;
+  color: darkcyan;
 }
 .page-banner {
   /* background-color: #000; */
@@ -835,11 +846,11 @@ body.login {
   z-index: 2;
 }
 .page-banner__title {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Courier New", monospace;
   font-weight: 300;
   font-size: 3.6rem;
   margin: 0 0 1rem 0;
-  color:black;
+  color: black;
 }
 @media (min-width: 530px) {
   .page-banner__title {
@@ -1020,7 +1031,7 @@ body.login {
 }
 .headline {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   font-weight: 300;
   color: #000;
 }
@@ -1047,7 +1058,7 @@ body.login {
   }
 }
 .headline--small-plus {
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   font-size: 1.6875rem;
   font-weight: 400;
   margin-bottom: 1.9rem;
@@ -1065,7 +1076,7 @@ body.login {
   font-size: 1.5rem;
 }
 .headline--tiny {
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   font-size: 1.3875rem;
   margin-bottom: 0.25rem;
 }
@@ -1091,7 +1102,7 @@ body.login {
 .generic-content h4,
 .generic-content h5,
 .generic-content h6 {
-  font-family: "Times New Roman", Times, serif;;
+  font-family: "Courier New", monospace;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -1142,6 +1153,7 @@ body.login {
 .full-width-split__one {
   flex: 1;
   padding: 1.6rem 16px;
+  background-color: lightgray;
 }
 @media (min-width: 960px) {
   .full-width-split__one {

@@ -1,18 +1,17 @@
 <?php get_header(); ?>
 
-
 <div class="page-banner">
     <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)"></div>
     <div class="page-banner__content container t-center c-white">
         <p class="headline headline--small">
-            Welcome to my portfolio! My name is Sanam Malik and I am a web developer and designer with a background in research and writing.
+            Welcome! My name is Sanam Malik and I am a web developer and designer with a background in research and writing.
             I am passionate about creating beautiful, inclusive, and accessible websites in Wordpress, PHP, Javascript, HTML, and CSS.
         </p>
     </div>
 </div>
 
-<div class="full-width-split group">
-    <div class="full-width-split__one">
+<div class="full-width-split group container container--narrow">
+    <div class="full-width-split__one container container--narrow">
         <div class="full-width-split__inner">
             <h2 class="headline headline--small-plus t-center">Technical Skills</h2>
 
@@ -66,29 +65,29 @@
         <div class="glide__slides">
             <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)">
                 <div class="hero-slider__interior container">
-                    <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Services Offered</h2>
-                        <strong><i><p class="t-center no-margin">Wordpress Custom Themes and Plugins, Content Management</p></i></strong> 
-                        <strong><i><p class="t-center no-margin">Manage and Update Current Website, Wordpress Webiste Creation</p></i></strong> 
-                        <strong><i><p class="t-center no-margin"> Google Analytic tracking, Create Infographics, Editing, Proofreading</p></i></strong>  
-                        <strong><i><p class="t-center no-margin">Writing, Research, Technical Research, Image Optimization, API Projects</p></i></strong> 
+                        <div class="t-center no-margin">
+                        <i><p>Wordpress Custom Themes and Plugins, Content Management</p></i>
+                        <i><p>Manage and Update Current Website, Wordpress Webiste Creation</p></i>
+                        <i><p> Google Analytic tracking, Create Infographics, Editing, Proofreading</p></i>
+                        <i><p>Writing, Research, Technical Research, Image Optimization, API Projects</p></i>
                         <!-- <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p> -->
-                    </div>
+                        </div>
                 </div>
             </div>
             <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)">
                 <div class="hero-slider__interior container">
-                    <div class="hero-slider__overlay">
                         <h2 class="headline headline--medium t-center">Testimonials</h2>
-                        <i><p class="t-center no-margin">Working with Sanam has been a wonderful experience. As a very new and</p></i>   
-                        <i><p class="t-center no-margin">small public service organization we wanted someone who</p></i>
-                        <i><p class="t-center no-margin">really understood our work and knew how to amplify it online. </p></i>
-                        <i><p class="t-center no-margin">With Sanam's year's of experience in the public sector,</p></i
-                        <i><p class="t-center no-margin">she provided us with guidance that we really needed. With her guidance and </p></i>
-                        <i><p class="t-center no-margin">expertise we were able to increase our donations by 100%!</p></i>
-                        <i><p class="t-center no margin">We have hired Sanam to create a new Wordpress website for us.</p></i>
-                        <i><p class="t-right no margin">--Project Downtown of Charlotte</p></i>
-                    </div>
+                        <div class="t-center no-margin">
+                        <i><p>Working with Sanam has been a wonderful experience. As a very new and</p></i>   
+                        <i><p>small public service organization we wanted someone who</p></i>
+                        <i><p>really understood our work and knew how to amplify it online. </p></i>
+                        <i><p>With Sanam's year's of experience in the public sector,</p></i>
+                        <i><p>she provided us with guidance that we really needed. With her guidance and </p></i>
+                        <i><p>expertise we were able to increase our donations by 100%!</p></i>
+                        <i><p>We have hired Sanam to create a new Wordpress website for us.</p></i>
+                        <i><p>--Project Downtown of Charlotte</p></i>
+                        </div>
                 </div>
             </div>
             <!-- <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
