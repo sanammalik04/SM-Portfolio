@@ -1,10 +1,4 @@
-html {
-  background: url('/images/joe-woods-4Zaq5xY5M_c-unsplash.jpeg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 body {
   color: #333;
   font-family: "Courier New", monospace;
@@ -86,6 +80,7 @@ li {
 }
 .t-center {
   text-align: center;
+  color: #000;
 }
 .t-small {
   font-size: 0.85rem;
@@ -1050,7 +1045,7 @@ body.login {
 .headline--medium {
   font-size: 1.9rem;
   margin-bottom: 0.75rem;
-  color: white;
+  color: black;
 }
 @media (min-width: 530px) {
   .headline--medium {

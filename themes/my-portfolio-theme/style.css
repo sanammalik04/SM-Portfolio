@@ -4,6 +4,46 @@ Author: Sanam Malik
 Version: 1.0
 */
 
-body {
-    color: green;
+html {
+  color:whitesmoke;
+  background-image: url("images/chalkboard-concrete.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+.main-navigation {
+    overflow: hidden;
+}
+
+.main-navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-navigation a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.main-navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.main-navigation-right {
+    float: right;
+}
+
+/* css for about me blurb */
+
+.page-banner{
+text-align: center;
+
 }

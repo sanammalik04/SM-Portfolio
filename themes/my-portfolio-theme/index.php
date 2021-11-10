@@ -63,7 +63,7 @@
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)">
+            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/chalkboard-concrete.jpeg') ?>)">
                 <div class="hero-slider__interior container">
                         <h2 class="headline headline--medium t-center">Services Offered</h2>
                         <div class="t-center no-margin">
@@ -75,7 +75,7 @@
                         </div>
                 </div>
             </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)">
+            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/chalkboard-concrete.jpeg') ?>)">
                 <div class="hero-slider__interior container">
                         <h2 class="headline headline--medium t-center">Testimonials</h2>
                         <div class="t-center no-margin">
