@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/herobackgroundimage.jpeg') ?>)"></div>
     <div class="page-banner__content container t-center c-white">
         <p class="headline headline--small">
             Welcome! My name is Sanam Malik and I am a web developer and designer with a background in research and writing.
@@ -52,7 +51,7 @@
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/chalkboard-concrete.jpeg') ?>)">
+            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/ashley-whitlatch-36aGnv29Ss0-unsplash.jpeg') ?>)">
                 <div class="hero-slider__interior">
                         <h2 class="headline">Services Offered</h2>
                         <div class="t-center">
@@ -64,7 +63,7 @@
                         </div>
                 </div>
             </div>
-            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/chalkboard-concrete.jpeg') ?>)">
+            <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/ashley-whitlatch-36aGnv29Ss0-unsplash.jpeg') ?>)">
                 <div class="hero-slider__interior container">
                         <h2 class="headline headline--medium t-center">Testimonials</h2>
                         <div class="t-center no-margin">
