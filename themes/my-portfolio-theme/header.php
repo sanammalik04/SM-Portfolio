@@ -8,9 +8,11 @@
 <body>
 <header class="site-header">
       <div class="container">
-        <h1 class="school-logo-text float-left">
-          <a href="<?php echo site_url() ?>"><strong>Sanam Malik's Portfolio</strong></a>
+        <h1 class="portfolio-name">
+          <!-- <a href="<?php echo site_url() ?>"><strong>Sanam Malik</strong></a> -->
+          <strong>Sanam Malik</strong>
         </h1>
+        <img>
         <!-- <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span> -->
         <i class="site-header__menu-trigger"></i>
         <div class="site-header__menu group">

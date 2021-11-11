@@ -1,5 +1,5 @@
 /*
-Theme Name: Sanam Malik's Portfolio
+Theme Name: Sanam Malik
 Author: Sanam Malik
 Version: 1.0
 */
@@ -11,6 +11,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   font-family: DejaVu Sans Mono, monospace;
+}
+
+/* css for title of portfolio */
+.portfolio-name {
+    text-align: left;
+    font-style: italic;
+    color: white;
+
 }
 
 .main-navigation {
@@ -46,4 +54,40 @@ html {
 .page-banner{
 text-align: center;
 
+}
+
+/* css for skills */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+/* css for skills button */
+
+a.button1 {
+    background-color: white; 
+    color: blueviolet;
+    padding: 15px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* css for hero slider*/
+
+.hero-slider__interior {
+    text-align: center;
+}
+
+.hero-slider {
+    padding-top: 50px;
+}
+
+.slider__bullets {
+   text-align: center;
 }

@@ -10,63 +10,52 @@
     </div>
 </div>
 
-<div class="full-width-split group container container--narrow">
-    <div class="full-width-split__one container container--narrow">
-        <div class="full-width-split__inner">
-            <h2 class="headline headline--small-plus t-center">Technical Skills</h2>
+<div class="grid-container">
 
-            <div class="event-summary">
-                <div class="event-summary__content">
-                    <h2 class="event-summary__title headline headline--tiny"><strong>Programming Languages</strong></h2>
-                    <p> JavaScript, Ruby on Rails, MySQL, CSS, and HTML</p>
-                </div>
-
-                <div class="event-summary__content">
-                    <h2 class="event-summary__title headline headline--tiny"><strong>Libraries & Frameworks</strong></h2>
-                    <p>React, React Router, React Hooks, API usage, Semantic UI, Bootstrap</p>
-                </div>
-
-                <div class="event-summary__content">
-                    <h2 class="event-summary__title headline headline--tiny"><strong>Additional Tools & Skills</strong></h2>
-                    <p>WordPress, UX Designing, Adobe Illustrator, Git, Npm, Yarn, PostgreSQL, Salesforce, Technical Research</p>
-                </div>
-            </div>
-
-            <p class="t-center no-margin"><a href='<?php echo site_url('/projects') ?>' class="btn btn--blue">View My Projects</a></p>
+    <div class="grid-child purple">
+        <h2>Technical Skills</h2>
+        <h><strong>Programming Languages</strong></h>
+        <p> JavaScript, Ruby on Rails, MySQL, CSS, and HTML</p>
+        <br>
+        <h><strong>Libraries & Frameworks</strong></h>
+        <p>React, React Router, React Hooks, API usage, Semantic UI, Bootstrap</p>
+    
+        <h2 ><strong>Additional Tools & Skills</strong></h2>
+        <p>WordPress, UX Designing, Adobe Illustrator, Git, Npm, Yarn, PostgreSQL, Salesforce, Technical Research</p>
+        
+        <div>
+            <button><a href='<?php echo site_url('/projects') ?>' class="button1" >View My Projects</a></button>
         </div>
     </div>
-    <div class="full-width-split__two">
-        <div class="full-width-split__inner">
-            <h2 class="headline headline--small-plus t-center">Non-Technical Skills</h2>
 
-            <div class="event-summary">
-                <div class="event-summary__content">
-                    <p class="event-summary__title headline headline--large">
-                    <ul>Research</ul>
-                    <ul>Writing</ul>
-                    <ul>Editing</ul>
-                    <ul>Proofreading</ul>
-                    <ul>Project Management</ul>
-                    <ul>Emotional Intelligence</ul>
-                    <ul>Strong Communication Skills</ul>
-                    <ul>Attention to Detail</ul>
-                    </p>
-                </div>
-            </div>
+    <div class="grid-child green">
+    <h2>Non-Technical Skills</h2>
+
+        <p>
+        <ul>Research</ul>
+        <ul>Writing</ul>
+        <ul>Editing</ul>
+        <ul>Proofreading</ul>
+        <ul>Project Management</ul>
+        <ul>Emotional Intelligence</ul>
+        <ul>Strong Communication Skills</ul>
+        <ul>Attention to Detail</ul>
+        </p>
+        <br>
+        <div>
+            <button><a href='<?php echo site_url('/publications') ?>' class="button1">View My Publications</a></button>
         </div>
-
-        <p class="t-center no-margin"><a href='<?php echo site_url('/publications') ?>' class="btn btn--yellow">View My Publications</a></p>
     </div>
-</div>
+  
 </div>
 
 <div class="hero-slider">
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
             <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/chalkboard-concrete.jpeg') ?>)">
-                <div class="hero-slider__interior container">
-                        <h2 class="headline headline--medium t-center">Services Offered</h2>
-                        <div class="t-center no-margin">
+                <div class="hero-slider__interior">
+                        <h2 class="headline">Services Offered</h2>
+                        <div class="t-center">
                         <i><p>Wordpress Custom Themes and Plugins, Content Management</p></i>
                         <i><p>Manage and Update Current Website, Wordpress Webiste Creation</p></i>
                         <i><p> Google Analytic tracking, Create Infographics, Editing, Proofreading</p></i>

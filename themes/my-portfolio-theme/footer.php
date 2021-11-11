@@ -3,7 +3,7 @@
         <div class="group">
             <div class="site-footer__col-one">
                 <h1 class="school-logo-text school-logo-text--alt-color">
-                    <a href="#"><strong>Sanam Malik's Portfolio</strong></a>
+                    <a href="#"><strong>Sanam Malik</strong></a>
                 </h1>
             </div>
 
