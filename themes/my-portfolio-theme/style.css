@@ -104,6 +104,10 @@ html {
       margin-left: -200px;
   }
 
+  .about-me {
+    color: #FC6D6D;
+  }
+
 
   /* css for navigation bar on top */
 .main-navigation {
@@ -166,7 +170,7 @@ a.button1 {
 
 /* css for hero slider*/
 
-.hero-slider__interior {
+/* .hero-slider__interior {
     text-align: center;
 }
 
@@ -176,7 +180,7 @@ a.button1 {
 
 .slider__bullets {
    text-align: center;
-}
+} */
 
 /* css for for pages */
 
@@ -195,6 +199,15 @@ a.button1 {
       margin-left: 0%;
       width: 100%;
     }
+  }
+
+  p {
+      color: #FC6D6D;
+  }
+
+  .email {
+    color: #FC6D6D;
+
   }
  
 /* css for footer */

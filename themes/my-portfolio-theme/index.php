@@ -27,6 +27,8 @@
         <li><span>Freelancer.</span></li>
         </ul>
     </div>
+    <p></p>
+    <h3>Click Here to Learn More <a class="about-me" href='<?php echo site_url('/about-me') ?>'>About Me!</a></h3>
 
    
 </div>
@@ -34,4 +36,4 @@
 
 
 
-<!-- <?php get_footer(); ?> -->
+<?php get_footer(); ?>
