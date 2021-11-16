@@ -6,35 +6,112 @@ Version: 1.0
 
 html {
   color:whitesmoke;
-  background-image: url("images/ashley-whitlatch-36aGnv29Ss0-unsplash.jpeg");
+  /* background-image: url("images/ashley-whitlatch-36aGnv29Ss0-unsplash.jpeg"); */
+  background: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: DejaVu Sans Mono, monospace;
+           /* top right bottom left */
+  padding: 5px 50px 30px 50px;
+  /* width: 100%;
+  height: auto; */
 }
+
+
 
 /* css for title of portfolio */
 .portfolio-name {
     text-align: left;
+    padding-top: 180px;
     font-style: italic;
     color: white;
 }
 
 /* css for my image */
-.my-image {
-    content: url("images/Attachment-1.jpg");
+/* .my-image {
+    content: url("images/mybitmoji.jpeg");
     display: block;
   margin-left: auto;
   margin-right: auto;
     border-radius: 50%;
-}
+} */
 
+/* css for animation for top */
+.wrapper{
+    display: flex;
+    text-align: center;
+  }
+
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+    margin-right: 150px;
+  }
+
+  .wrapper .dynamic-txts{
+    margin-top: 5px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    margin-left: -145px;
+  }
+
+  .dynamic-txts li{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+  .edi {
+      margin-left: -200px;
+  }
+
+
+  /* css for navigation bar on top */
 .main-navigation {
     overflow: hidden;
 }
 
 .main-navigation a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -56,6 +133,7 @@ html {
 .main-navigation-right {
     float: right;
 }
+
 
 /* css for about me blurb */
 
@@ -99,3 +177,63 @@ a.button1 {
 .slider__bullets {
    text-align: center;
 }
+
+/* css for for pages */
+
+.generic-content {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ 
+/* css for footer */
+.footer-site-name {
+    text-align: center;
+}
+
+.site-footer-contact {
+    text-align: center;
+}
+
+/* css for button on homepage */
+/* .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .btn-home span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-home:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-home:hover span:after {
+    opacity: 1;
+    right: 0;
+  } */
