@@ -22,7 +22,7 @@
         <div class="static-txt">I'm a</div>
         <ul class="dynamic-txts">
         <li><span>Developer.</span></li>
-        <li><span>Web Designer.</span></li>
+        <li><span>UX Designer.</span></li>
         <li><span>Researcher.</span></li>
         <li><span>Freelancer.</span></li>
         </ul>
